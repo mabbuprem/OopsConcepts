@@ -1,9 +1,11 @@
 <?php
-   Interface MyInterface {
-      public function getName();
-      public function getAge();
-   }
-   class MyClass implements MyInterface{
+  // Interface definition
+  Interface Imydetails {
+     public function getName();
+     public function getAge();
+  }
+  
+   class MyClass implements Imydetails{
       public function getName() {
             echo "My name PremKumar".'<br>';
       }

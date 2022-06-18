@@ -1,8 +1,8 @@
 <?php
 class Employee
 {
-public $employee_name;
-public $employee_id;
+private $employee_name;
+private $employee_id;
 function __construct($emp_name, $emp_id)
 {
 $this->employee_name = $emp_name;

@@ -31,4 +31,3 @@ class Student {
 $student = new Student();
 $student->setFirstNmae('prem');
 $student-> setGender('Male');
-?>
